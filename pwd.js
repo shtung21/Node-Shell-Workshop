@@ -1,3 +1,3 @@
 module.exports = function (cmd) {
-    process.stdout.write(process.cwd());
+    done(process.cwd());
 };
